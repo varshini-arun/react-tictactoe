@@ -1,0 +1,46 @@
+.App{
+  background-color: black;
+  color:white;
+  height: 100vh;
+}
+body{
+  background-color: black;
+  color:white;
+}
+.msg h1{
+  color: crimson;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.box{
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100px;
+}
+
+.icon{
+  font-size: 40px;
+  color:white;
+}
+
+.box2{
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100px;
+  background-color: rgb(41, 119, 236);
+}
+.box2:hover{
+  background-color: #eee;
+  border: none;
+  color:rgb(41, 119, 236);
+}
+
+
